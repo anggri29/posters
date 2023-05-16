@@ -8,6 +8,10 @@ public class MoviePostersManager {
         this.limit = 5;
     }
 
+    public int getLimit() {
+        return limit;
+    }
+
     public MoviePostersManager(int limit) {
         this.limit = limit;
     }
